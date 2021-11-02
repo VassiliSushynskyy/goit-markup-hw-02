@@ -1,0 +1,11 @@
+:root {
+  --primary-color-text: rgb(#212121);
+  --secondary-color-text: rgb(#757575);
+  --buttons-active-color: rgb(#2196f3);
+  --text-in-active-buttons: rgb(#2196f3);
+  --text-on-background-color: rgb(#ffffff);
+  --background-color: rgb(#e5e5e5);
+  --color-backgrount-hero-footer: rgb(#2f303a);
+}
+/* фон для секції наша команда #F5F4FA */
+/*фон для чем мы занимаемся #E5E5E5*/
