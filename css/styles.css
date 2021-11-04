@@ -1,13 +1,40 @@
 :root {
-  --primary-color-text: rgb(#212121);
-  --secondary-color-text: rgb(#757575);
-  --buttons-active-color: rgb(#2196f3);
-  --text-in-active-buttons: rgb(#2196f3);
-  --text-on-background-color: rgb(#ffffff);
-  --background-color: rgb(#e5e5e5);
-  --color-backgrount-hero-footer: rgb(#2f303a);
+  --primary-color-text: #212121;
+  --secondary-color-text: #757575;
+  --accent-color: #2196f3;
+  --text-in-active-buttons: #2196f3;
+  --text-on-background-color: #ffffff;
+  --background-color: #e5e5e5;
+  --color-backgrount-hero-footer: #2f303a;
 }
 /* фон для секції наша команда #F5F4FA */
 /*фон для чем мы занимаемся #E5E5E5*/
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
+body {
+  color: var(--primary-color-text);
+  background-color: var(--background-color);
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--accent-color);
+}
+.navigation-item {
+  color: var(--primary-color-text);
+}
+.navigation-item :hover,
+.navigation-item :focus {
+  color: var(--accent-color);
+}
+.studio-header-logo {
+  color: #000000;
+}
+.header-contacts {
+  color: var(--secondary-color-text);
+}
+.header-contacts :hover,
+.header-contacts :focus {
+  color: var(--accent-color);
+}
