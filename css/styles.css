@@ -16,15 +16,16 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
-a {
+.link {
   text-decoration: none;
-  font-family: inherit;
+  list-style: none;
 }
 
 .list {
   list-style: none;
   text-decoration: none;
 }
+/*-------------header----------------*/
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -33,14 +34,11 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.navigation-item {
-  color: var(--primary-color-text);
+.header-link {
+  color: var(--secondary-color-text);
 }
-.navigation-list {
-  color: #212121;
-}
-.navigation-item :hover,
-.navigation-item :focus {
+.header-item :hover,
+.header-item :focus {
   color: var(--accent-color);
 }
 .studio-header-logo {
@@ -50,9 +48,10 @@ a {
   color: var(--secondary-color-text);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .header-contacts :hover,
 .header-contacts :focus {
   color: var(--accent-color);
@@ -112,4 +111,71 @@ a {
   color: var(--secondary-color-text);
   font-size: 16px;
   line-height: 1.19;
+}
+/*-----------------------------footer---------------------*/
+.footer {
+  background: var(--color-backgrount-hero-footer);
+  color: var(--text-on-background-color);
+}
+.studio-footer {
+  color: var(--text-on-background-color);
+}
+.address {
+  background: var(--color-backgrount-hero-footer);
+  color: var(--text-on-background-color);
+}
+.place-map {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-on-background-color);
+}
+.footer-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*---------------------------------Project page----------------------------*/
+.our-projects-text {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.project-btn {
+  color: var(--primary-color-text);
+  background: #f5f4fa;
+}
+.button-project:hover,
+.button-project:focus {
+  color: var(--text-on-background-color);
+  background: var(--accent-color);
+}
+.descript-img {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.test-projects {
+  color: var(--secondary-color-text);
+  font-size: 16px;
+  line-height: 1.87;
 }
