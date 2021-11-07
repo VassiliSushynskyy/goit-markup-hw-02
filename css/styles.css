@@ -45,6 +45,13 @@ body {
 .studio-header-logo {
   color: #000000;
 }
+.header-link {
+  color: var(--primary-color-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .header-contact {
   color: var(--secondary-color-text);
   font-weight: 500;
@@ -68,16 +75,28 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-btn {
   background: var(--accent-color);
   color: var(--text-on-background-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+.hero-btn :hover,
+.hero-btn:focus {
+  background: #188ce8;
 }
 /*section promis*/
 .promis-h {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .promis-text {
   color: var(--secondary-color-text);
@@ -176,10 +195,19 @@ body {
   color: var(--primary-color-text);
   background: #f5f4fa;
 }
+.button-project {
+  color: var(--primary-color-text);
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .button-project:hover,
 .button-project:focus {
   color: var(--text-on-background-color);
-  background: var(--accent-color);
+  background: #188ce8;
   cursor: pointer;
 }
 .descript-img {
@@ -188,7 +216,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.test-projects {
+.text-projects {
   color: var(--secondary-color-text);
   font-size: 16px;
   line-height: 1.87;
